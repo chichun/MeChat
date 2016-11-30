@@ -1,0 +1,128 @@
+body{
+  background-color:pink;
+  font-family: Muli;
+
+}
+
+
+.mdl-card {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.mdl-textfield__input{
+
+  font-weight: bold;
+}
+
+.mdl-button{
+  font-family: Fjalla One;
+  font-weight: bold;
+}
+/*.mdl-button.mdl-button--colored {
+    color: #BAC1E1;
+}*/
+.mdl-button--raised.mdl-button--colored {
+    background:#A3AECD ;
+}
+
+#sign-info {
+  color: #BAC1E1;
+  font-size: 120%;
+  font-weight: bold;
+  font-family: Tillana;
+}
+#user-pic {
+  padding:10px;
+  width: 72px;
+  box-sizing: border-box;
+}
+#user-info {
+  padding: 10px;
+  width: 216px;
+  box-sizing: border-box;
+}
+
+#user-info ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#user-info ul li {
+    font-family: Yrsa;
+    line-height: 24px;
+    font-size:22px;
+}
+#message-content ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px 20px 20px 0px;
+  height: 300px;
+  overflow: auto;
+}
+#message-content ul li {
+    font-family: Yrsa;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+#message-content ul li:last-child {
+    margin: 0px;
+}
+#message-content ul .example-chat-username {
+    margin-right: 10px;
+}
+#message-content ul .usermessage{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+input(type="password") {
+  font:large;
+  font-size:150%;
+}
+.demo-avatar {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+    font-family: Yrsa;
+    /*font-size: 120%;*/
+    /*font-weight: 300;*/
+    /*margin-bottom: 10px;*/
+    line-height: 24px;
+}
+.mdl-color--light-blue-600 {
+    background-color: #EF476F !important;
+}
+
+.mdl-textfield__label:after {
+    background-color: #BAC1E1;
+}
+h2{
+  font-family: Aref Ruqaa;
+}
+
+h6{
+  font-family: Tillana;
+}
+
+/*ul li:last-child {
+    margin: 0px;
+}
+ul .example-chat-username {
+    margin-right: 10px;
+}*/
+/*#Photo {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}*/
